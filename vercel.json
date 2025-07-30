@@ -5,16 +5,7 @@
       "runtime": "nodejs18.x"
     }
   },
-  "routes": [
-    {
-      "src": "/api/send-email",
-      "dest": "/api/send-email.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/api/send-email.js"
-    }
-  ],
+ 
   "headers": [
     {
       "source": "/api/(.*)",
